@@ -17,23 +17,17 @@ settings:
 monitors:
   - id: v2board # unique identifier
     name: v2board
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'v2board page' # default=empty
     url: 'https://xui.jiangfff.online' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: chat-brcon
+    name: chat-brcon
+    description: 'chat-brcon page'
+    url: 'https://chat.brcon.com.cn'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
