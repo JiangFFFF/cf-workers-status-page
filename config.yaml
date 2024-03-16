@@ -34,7 +34,7 @@ monitors:
 
    - id: hertzbeat
     name: hertzbeat
-    description: 'chat-brcon page'
+    description: 'hertzbeat'
     url: 'http://47.100.26.226:1157/'
     method: GET
     expectStatus: 200
