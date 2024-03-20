@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: V2Board # unique identifier
+  - id: v2board # unique identifier
     name: V2Board
     description: 'V2Board page' # default=empty
     url: 'https://xui.jiangfff.online' # URL to fetch
