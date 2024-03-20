@@ -32,7 +32,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-   - id: image
+  - id: image
     name: image
     description: 'image page'
     url: 'https://image.nailao.one'
@@ -40,7 +40,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true 
 
-   - id: vless
+  - id: vless
     name: vless
     description: 'vless'
     url: 'https://vless.jiangfff.online'
