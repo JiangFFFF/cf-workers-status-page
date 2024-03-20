@@ -15,9 +15,9 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: v2board # unique identifier
-    name: v2board
-    description: 'v2board page' # default=empty
+  - id: V2Board # unique identifier
+    name: V2Board
+    description: 'V2Board page' # default=empty
     url: 'https://xui.jiangfff.online' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -32,9 +32,9 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: image
-    name: image
-    description: 'image page'
+  - id: telegraph-image
+    name: telegraph-image
+    description: 'telegraph-image page'
     url: 'https://image.nailao.one'
     method: GET
     expectStatus: 200
