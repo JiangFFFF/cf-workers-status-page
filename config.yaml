@@ -46,4 +46,12 @@ monitors:
     url: 'https://vless.jiangfff.online'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: hertzbeat
+    name: hertzbeat
+    description: 'hertzbeat'
+    url: 'http://47.100.26.226:1157'
+    method: GET
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true  
